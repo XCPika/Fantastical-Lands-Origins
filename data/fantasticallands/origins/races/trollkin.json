@@ -1,0 +1,16 @@
+{
+    "name": "Trollkin",
+    "description": "As ancient as the mountains themselves, Trollkin are known for their hulking frames and near-indestructible skin. They possess uncanny regenerative abilities but are vulnerable to fire due to their troll blood, which can cause them to combust. Despite these challenges, they strive to coexist peacefully with their neighbors.",
+    "icon": "bone_block",
+    "powers": [
+        "fantasticallands:races/trollkin/iron_bones",
+        "fantasticallands:races/trollkin/flammable",
+        "fantasticallands:races/trollkin/tough_skin",
+        "fantasticallands:races/trollkin/hot_tempered",
+        "fantasticallands:races/trollkin/troll_vitality",
+        "fantasticallands:races/trollkin/volatile_blood",
+        "fantasticallands:races/trollkin/troll_size"
+    ],
+    "order": 4,
+    "impact": 3
+}

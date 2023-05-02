@@ -1,0 +1,21 @@
+{
+    "name": "Swift Flight",
+    "description": "Launch yourself into the air with each flap",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:add_velocity",
+        "y": 1
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:in_rain",
+                "inverted": true
+            },
+            {
+                "type": "origins:fall_flying"
+            }
+        ]
+    }
+}

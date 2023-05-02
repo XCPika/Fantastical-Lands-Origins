@@ -1,0 +1,6 @@
+{
+    "parent": "item/written_book",
+    "textures": {
+        "layer0": "item/guide_to_necromancy"
+    }
+}

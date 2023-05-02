@@ -1,0 +1,6 @@
+{   
+    "name": "Dense",
+    "description": "Due to their unnaturally stocky builds, dwarfs fall to the ground much faster, as if the ground itself is begging them to stay. [Increased falling speed]",
+    "type": "origins:modify_falling",
+    "velocity": 0.09
+}

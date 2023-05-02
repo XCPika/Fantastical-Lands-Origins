@@ -1,0 +1,16 @@
+{
+    "name": "Elf",
+    "description": "Beautiful, elegant, dangerous, and immortal. Elves tend to care greatly for nature doing everything they can to protect the forests and glades of this world. Their incredible agility and accuracy make them formidable enemies should you cross them.",
+    "icon": "bow",
+    "powers": [
+        "fantasticallands:races/elf/trance",
+        "fantasticallands:races/elf/longevity",
+        "fantasticallands:races/elf/bow_damage",
+        "fantasticallands:races/elf/vegetarian",
+        "fantasticallands:races/elf/saurons_gaze",
+        "fantasticallands:races/elf/dainty",
+        "fantasticallands:races/elf/elf_size"
+    ],
+    "order": 2,
+    "impact": 1
+}

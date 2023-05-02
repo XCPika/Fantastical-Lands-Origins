@@ -1,0 +1,34 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 4,
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "fantasticallands:bard/song_selector/song_wheel",
+            "comparison": "==",
+            "compare_to": 1
+        },
+        "if_action": {
+            "type": "origins:execute_command",
+            "command": "resource set @s fantasticallands:bard/song_selector/song_wheel 3",
+            "permission_level": 4
+        },
+        "else_action": {
+            "type": "origins:change_resource",
+            "resource": "fantasticallands:bard/song_selector/song_wheel",
+            "change": -1
+        }
+    },
+    "hud_render": {
+        "should_render": false,
+        "sprite_location": "fantasticallands:textures/gui/bard/resource_bar.png",
+        "bar_index": 9
+    },
+    "name": "Down Scroll",
+    "description": "Press your pick block button to scroll down a power.",
+    "key": {
+        "key": "key.pickItem",
+        "continuous": true
+    }
+}

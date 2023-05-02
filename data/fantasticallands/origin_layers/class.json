@@ -1,0 +1,18 @@
+{
+    "order": 1,
+    "origins": [
+        "fantasticallands:classes/builder",
+        "fantasticallands:classes/alchemist",
+        "fantasticallands:classes/fighter",
+        "fantasticallands:classes/rogue",
+        "fantasticallands:classes/magus",
+        "fantasticallands:classes/explorer",
+        "fantasticallands:classes/commoner",
+        "fantasticallands:classes/bard"
+    ],
+    "name": "class",
+    "missing_name": "Unspecialized",
+    "missing_description": "You currently don't have a class selected.",
+    "enabled": true,
+    "allow_random": true
+}

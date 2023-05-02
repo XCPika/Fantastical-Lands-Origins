@@ -1,0 +1,13 @@
+{
+    "name": "Flammable",
+    "description": "Trollkin take increased fire damage.",
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "addition",
+        "value": 10
+    },
+    "damage_condition": {
+        "type": "origins:fire"
+    },
+    "cooldown": 1
+}

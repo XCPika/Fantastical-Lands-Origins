@@ -1,0 +1,10 @@
+{
+    "name": "Builder Starting Equipment",
+    "description": "You start with: [A Palette, A Stone Wand and a Utility Belt]",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {"item": "wands:palette"},
+        { "item": "wands:stone_wand" },
+        {"item": "utilitybelt:utility_belt"}
+    ]
+}

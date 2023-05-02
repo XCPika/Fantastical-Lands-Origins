@@ -1,0 +1,14 @@
+{
+    "name": "Rogue",
+    "description": "Masters of shadow the rogue is trained in the deadly arts. [Activate button is Senary Active]",
+    "icon": "simplyswords:iron_sai",
+    "powers": [
+        "fantasticallands:classes/rogue/backstab",
+        "fantasticallands:classes/rogue/cloaked",
+        "fantasticallands:classes/rogue/silent_stalker",
+        "fantasticallands:classes/rogue/kit_rogue",
+        "fantasticallands:classes/rogue/smokescreen"
+    ],
+    "order": 4,
+    "impact": 2
+}

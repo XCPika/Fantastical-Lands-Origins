@@ -1,0 +1,5 @@
+{
+    "name":"Iron Belly", 
+    "description": "Millennia of drinking rotten fruit pulp in their pursuit for the perfect ale has caused some unexpected changes to the body of the dwarfs, giving them a belly as hard and heavy as iron, making them sink through water as if it weren't even there. [Ignores water for movement purposes, but can still drown]", 
+    "type":"origins:ignore_water"
+}

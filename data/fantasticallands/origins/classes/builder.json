@@ -1,0 +1,14 @@
+{
+    "name": "Builder",
+    "description": "Talented and efficient, Builders get the job done no matter the cost. [Activate button is Secondary Active]",
+    "icon": "honeycomb",
+    "powers": [
+        "fantasticallands:classes/builder/long_reach",
+        "fantasticallands:classes/builder/builders_grace",
+        "fantasticallands:classes/builder/eternal_moment",
+        "fantasticallands:classes/builder/kit_builder",
+        "fantasticallands:classes/builder/perfect_timing"
+    ],
+    "order": 1,
+    "impact": 2
+}

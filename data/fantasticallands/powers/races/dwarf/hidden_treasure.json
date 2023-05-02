@@ -1,0 +1,82 @@
+{
+    "name": "Hidden Treasure",
+    "description": "Dwarfs know where to look when it comes to finding precious metals and gems, often finding treasures in places people think there are none. [3% chance to get ores from normal stone]",
+    "type": "origins:action_on_block_break",
+    "entity_action": {
+        "type": "origins:chance",
+        "action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "origins:give",
+                        "stack": {
+                        "item": "minecraft:iron_ore"
+                        }
+                    },
+                    "weight": 10
+                },
+                {
+                    "element": {
+                        "type": "origins:give",
+                        "stack": {
+                        "item": "minecraft:gold_ore"
+                        }
+                    },
+                    "weight": 10
+                },
+                {
+                    "element": {
+                        "type": "origins:give",
+                        "stack": {
+                        "item": "minecraft:diamond_ore"
+                        }
+                    },
+                    "weight": 10
+                },
+                {
+                    "element": {
+                        "type": "origins:give",
+                        "stack": {
+                        "item": "minecraft:redstone_ore"
+                        }
+                    },
+                    "weight": 10
+                },
+                {
+                    "element": {
+                        "type": "origins:give",
+                        "stack": {
+                        "item": "minecraft:emerald_ore"
+                        }
+                    },
+                    "weight": 10
+                },
+                {
+                    "element": {
+                        "type": "origins:give",
+                        "stack": {
+                        "item": "minecraft:lapis_ore"
+                        }
+                    },
+                    "weight": 10
+                },
+                {
+                    "element": {
+                        "type": "origins:give",
+                        "stack": {
+                        "item": "minecraft:copper_ore"
+                        }
+                    },
+                    "weight": 10
+                }
+            ]
+        },
+        "chance": 0.03
+    },
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:stone"
+    },
+    "only_when_harvested": false
+}

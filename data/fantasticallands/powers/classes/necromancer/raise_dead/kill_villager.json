@@ -1,0 +1,35 @@
+{
+	"type": "origins:self_action_on_kill",
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "function fantasticallands:necromancer/zombie_villager_summon",
+		"permission_level": 4
+	},
+	"hud_render": {
+		"should_render": false,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+		"bar_index": 6
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:resource",
+				"resource": "fantasticallands:necromancer/scroller/scroller",
+				"comparison": "==",
+				"compare_to": 7
+			},
+			{
+				"type": "origins:resource",
+				"resource": "fantasticallands:necromancer/mana/mana",
+				"comparison": ">=",
+				"compare_to": 1250
+			}
+		]
+	},
+	"target_condition": {
+		"type": "origins:entity_type",
+		"entity_type": "minecraft:villager"
+	},
+	"cooldown": 1,
+	"hidden": true
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Towering Heights",
+	"description": "Elves are quite tall but still slender, easily able to peer over the tops of humans heads. [2.75 Blocks Tall, normal width]",
+	"type": "origins:multiple",
+	"size_callback": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen": {
+			"type": "origins:execute_command",
+			"command": "function fantasticallands:florigins/elf_callon"
+		},
+		"entity_action_lost": {
+			"type": "origins:execute_command",
+			"command": "function fantasticallands:florigins/elf_callback"
+		},
+		"execute_chosen_when_orb": true
+	},
+	"size_constant": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "execute unless entity @s[pehkui.scale_nbt={\"pehkui:scale_data_types\":{\"pehkui:height\":{scale:1.08f}}}] run function fantasticallands:florigins/elf_callon"
+		},
+		"interval": 50
+	}
+}

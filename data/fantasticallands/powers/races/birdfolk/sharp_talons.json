@@ -1,0 +1,17 @@
+{
+    "name": "Sharp Talons",
+    "description": "Your sharp talons leave wounds behind causing damage over time.",
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:poison",
+                "duration": 40,
+                "amplifier": 1,
+                "show_particles": false
+            }
+        }
+    }
+}

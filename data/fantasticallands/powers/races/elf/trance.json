@@ -1,0 +1,9 @@
+{
+    "name": "Trance",
+    "description": "Elves don't need sleep, though they can if they wish. They do not suffer from insomnia no matter how long they go without sleep.",
+    "type": "origins:modify_insomnia_ticks",
+    "modifier": {
+        "operation": "set_total",
+        "value": 0
+    }
+}

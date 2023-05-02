@@ -1,0 +1,10 @@
+{
+    "name": "Explorer Starting Equipment",
+    "description": "You start with: [A Sleeping Bag, 64 Bread, 64, Torches]",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {"item": "comforts:sleeping_bag_red", "amount": 1},
+        {"item": "minecraft:bread", "amount": 64},
+        {"item": "minecraft:torch", "amount": 64}
+    ]
+}

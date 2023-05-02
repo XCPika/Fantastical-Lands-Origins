@@ -1,0 +1,9 @@
+{
+    "name": "Fast Learners",
+    "description": "Humans are fast learners who train hard and get results! [Double XP Gain! :D]",
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2.0
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Rock Climber",
+    "description": "Can climb naturally generated blocks.",
+    "type": "origins:climbing",
+    "condition": {
+        "type": "origins:collided_horizontally",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "fantasticallands:natural_blocks"
+        }
+    }
+}

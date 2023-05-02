@@ -1,0 +1,216 @@
+{
+    "order": 2,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "fantasticallands:races/human",
+                "layer": "origins:origin",
+                "inverted": true
+            },
+            "origins": [
+                "fantasticallands:classes/null"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:races/human",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:classes/commoner",
+                        "layer": "fantasticallands:class"
+                    }
+                ]
+            },
+            "origins": [
+                "fantasticallands:classes/null"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:races/human",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:classes/builder",
+                        "layer": "fantasticallands:class"
+                    }
+                ]
+            },
+            "origins": [
+                "fantasticallands:classes/alchemist",
+                "fantasticallands:classes/fighter",
+                "fantasticallands:classes/rogue",
+                "fantasticallands:classes/magus",
+                "fantasticallands:classes/explorer",
+                "fantasticallands:classes/bard"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:races/human",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:classes/alchemist",
+                        "layer": "fantasticallands:class"
+                    }
+                ]
+            },
+            "origins": [
+                "fantasticallands:classes/builder",
+                "fantasticallands:classes/fighter",
+                "fantasticallands:classes/rogue",
+                "fantasticallands:classes/magus",
+                "fantasticallands:classes/explorer",
+                "fantasticallands:classes/bard"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:races/human",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:classes/fighter",
+                        "layer": "fantasticallands:class"
+                    }
+                ]
+            },
+            "origins": [
+                "fantasticallands:classes/builder",
+                "fantasticallands:classes/alchemist",
+                "fantasticallands:classes/rogue",
+                "fantasticallands:classes/magus",
+                "fantasticallands:classes/explorer",
+                "fantasticallands:classes/bard"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:races/human",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:classes/rogue",
+                        "layer": "fantasticallands:class"
+                    }
+                ]
+            },
+            "origins": [
+                "fantasticallands:classes/builder",
+                "fantasticallands:classes/alchemist",
+                "fantasticallands:classes/fighter",
+                "fantasticallands:classes/magus",
+                "fantasticallands:classes/explorer",
+                "fantasticallands:classes/bard"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:races/human",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:classes/magus",
+                        "layer": "fantasticallands:class"
+                    }
+                ]
+            },
+            "origins": [
+                "fantasticallands:classes/builder",
+                "fantasticallands:classes/alchemist",
+                "fantasticallands:classes/fighter",
+                "fantasticallands:classes/rogue",
+                "fantasticallands:classes/explorer",
+                "fantasticallands:classes/bard"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:races/human",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:classes/explorer",
+                        "layer": "fantasticallands:class"
+                    }
+                ]
+            },
+            "origins": [
+                "fantasticallands:classes/builder",
+                "fantasticallands:classes/alchemist",
+                "fantasticallands:classes/fighter",
+                "fantasticallands:classes/rogue",
+                "fantasticallands:classes/magus",
+                "fantasticallands:classes/bard"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:races/human",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:origin",
+                        "origin": "fantasticallands:classes/bard",
+                        "layer": "fantasticallands:class"
+                    }
+                ]
+            },
+            "origins": [
+                "fantasticallands:classes/builder",
+                "fantasticallands:classes/alchemist",
+                "fantasticallands:classes/fighter",
+                "fantasticallands:classes/rogue",
+                "fantasticallands:classes/magus",
+                "fantasticallands:classes/explorer"
+            ]
+        }
+        
+    ],
+    "name": "secondary class",
+    "missing_description": "You currently don't have a secondary class selected.",
+    "enabled": true,
+    "allow_random": true
+}

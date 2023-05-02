@@ -1,0 +1,14 @@
+{
+    "name": "Explorer",
+    "description": "Masters of terrain, Explorers widen the world with every new sight they see. [Activate button is Ternary Active]",
+    "icon": "compass",
+    "powers": [
+        "fantasticallands:classes/explorer/rock_climber",
+        "fantasticallands:classes/explorer/iron_lungs",
+        "fantasticallands:classes/explorer/unhindered",
+        "fantasticallands:classes/explorer/second_wind",
+        "fantasticallands:classes/explorer/kit_explorer"
+    ],
+    "order": 2,
+    "impact": 2
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Goblin",
+    "description": "Small, greedy, and afraid goblins tend to travel in large tribes. They use their numbers to overwhelm and collect resources from the things that they kill. Obsessed with shiny objects they prefer to use gilded tools and armor. Not many know what it means to be goblin.",
+    "icon": "gold_nugget",
+    "powers": [
+        "fantasticallands:races/goblin/cunning",
+        "fantasticallands:races/goblin/greedy",
+        "fantasticallands:races/goblin/nippy",
+        "fantasticallands:races/goblin/thorns",
+        "fantasticallands:races/goblin/fear",
+        "fantasticallands:races/goblin/frail",
+        "fantasticallands:races/goblin/goblin_size"
+    ],
+    "order": 3,
+    "impact": 2
+}

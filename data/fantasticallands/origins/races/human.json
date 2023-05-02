@@ -1,0 +1,14 @@
+{
+    "name": "Human",
+    "icon": "player_head",
+    "description": "Being the most widely spread race in the world, humans are incredibly adaptive and tend to conquer anywhere they go regardless of their lack of mastery over any one particular craft.",
+    "powers": [
+        "fantasticallands:races/human/naturally_skilled",
+        "fantasticallands:races/human/susceptible",
+        "fantasticallands:races/human/second_class",
+        "fantasticallands:races/human/human_size"
+
+    ],
+    "order": 0,
+    "impact": 1
+}

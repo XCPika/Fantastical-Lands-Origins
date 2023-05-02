@@ -1,0 +1,13 @@
+{
+    "type": "origins:resource",
+    "min": 1,
+    "max": 3,
+    "start_value": 1,
+    "hud_render":{
+        "should_render": true,
+        "sprite_location": "fantasticallands:textures/gui/bard/resource_bar.png",
+        "bar_index": 9
+    },
+	"name": "Power Selector",
+	"description": "You scroll to select your current power."
+}

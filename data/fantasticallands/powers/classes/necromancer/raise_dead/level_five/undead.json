@@ -1,0 +1,564 @@
+{
+	"type": "origins:multiple",
+	"brute":{
+	"type": "origins:self_action_on_kill",
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "function necro:level_five/zombie_piglin_summon",
+		"permission_level": 4
+	},
+	"hud_render": {
+		"should_render": false,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+		"bar_index": 6
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:resource",
+				"resource": "necro:scroller/scroller",
+				"comparison": "==",
+				"compare_to": 7
+			},
+		    {
+				"type": "origins:resource",
+				"resource": "necro:xp_scaler/xp",
+				"comparison": "==",
+				"compare_to": 5
+			},
+			{
+				"type": "origins:resource",
+				"resource": "necro:mana/mana",
+				"comparison": ">=",
+				"compare_to": 5000
+			}
+		]
+	},
+	"target_condition": {
+		"type": "origins:entity_type",
+		"entity_type": "minecraft:piglin_brute"
+	},
+	"cooldown": 1,
+	"hidden": true
+	},
+	"drowned": {
+		"type": "origins:self_action_on_kill",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function necro:level_five/drown_summon",
+			"permission_level": 4
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+			"bar_index": 6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:xp_scaler/xp",
+					"comparison": "==",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 5000
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:drowned"
+		},
+		"cooldown": 1,
+		"hidden": true
+	},
+	"hoglin": {
+		"type": "origins:self_action_on_kill",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function necro:zoglin_summon",
+			"permission_level": 4
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+			"bar_index": 6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 5000
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:hoglin"
+		},
+		"cooldown": 1,
+		"hidden": true
+	},
+	"husk": {
+		"type": "origins:self_action_on_kill",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function necro:level_five/husk_summon",
+			"permission_level": 4
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+			"bar_index": 6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:xp_scaler/xp",
+					"comparison": "==",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 5000
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:husk"
+		},
+		"cooldown": 1,
+		"hidden": true
+	},
+	"pig": {
+		"type": "origins:self_action_on_kill",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function necro:level_five/zombie_piglin_summon",
+			"permission_level": 4
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+			"bar_index": 6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:xp_scaler/xp",
+					"comparison": "==",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 5000
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:pig"
+		},
+		"cooldown": 1,
+		"hidden": true
+	},
+	"piglin": {
+		"type": "origins:self_action_on_kill",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function necro:level_five/zombie_piglin_summon",
+			"permission_level": 4
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+			"bar_index": 6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:xp_scaler/xp",
+					"comparison": "==",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 5000
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:piglin"
+		},
+		"cooldown": 1,
+		"hidden": true
+	},
+	"skeleton": {
+		"type": "origins:self_action_on_kill",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function necro:level_five/skeleton_summon",
+			"permission_level": 4
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+			"bar_index": 6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:xp_scaler/xp",
+					"comparison": "==",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 5000
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:skeleton"
+		},
+		"cooldown": 1,
+		"hidden": true
+	},
+	"stray": {
+		"type": "origins:self_action_on_kill",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function necro:level_five/stray_summon",
+			"permission_level": 4
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+			"bar_index": 6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:xp_scaler/xp",
+					"comparison": "==",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 5000
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:stray"
+		},
+		"cooldown": 1,
+		"hidden": true
+	},
+	"villager": {
+		"type": "origins:self_action_on_kill",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function necro:level_five/zombie_villager_summon",
+			"permission_level": 4
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+			"bar_index": 6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:xp_scaler/xp",
+					"comparison": "==",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 5000
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:villager"
+		},
+		"cooldown": 1,
+		"hidden": true
+	},
+	"wither_skeleton": {
+		"type": "origins:self_action_on_kill",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function necro:level_five/wither_skeleton_summon",
+			"permission_level": 4
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+			"bar_index": 6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:xp_scaler/xp",
+					"comparison": "==",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 5000
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:wither_skeleton"
+		},
+		"cooldown": 1,
+		"hidden": true
+	},
+	"zoglin": {
+		"type": "origins:self_action_on_kill",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function necro:zoglin_summon",
+			"permission_level": 4
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+			"bar_index": 6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 5000
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:zoglin"
+		},
+		"cooldown": 1,
+		"hidden": true
+	},
+	"zombified_piglin": {
+		"type": "origins:self_action_on_kill",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function necro:level_five/zombie_piglin_summon",
+			"permission_level": 4
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+			"bar_index": 6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:xp_scaler/xp",
+					"comparison": "==",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 5000
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:zombified_piglin"
+		},
+		"cooldown": 1
+	},
+	"zombie_villager": {
+		"type": "origins:self_action_on_kill",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function necro:level_five/zombie_villager_summon",
+			"permission_level": 4
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+			"bar_index": 6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:xp_scaler/xp",
+					"comparison": "==",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 5000
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:zombie_villager"
+		},
+		"cooldown": 1,
+		"hidden": true
+	},
+	"zombie": {
+		"type": "origins:self_action_on_kill",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function necro:level_five/zombie_summon",
+			"permission_level": 4
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+			"bar_index": 6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 7
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:xp_scaler/xp",
+					"comparison": "==",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 5000
+				}
+			]
+		},
+		"target_condition": {
+			"type": "origins:entity_type",
+			"entity_type": "minecraft:zombie"
+		},
+		"cooldown": 1,
+		"hidden": true
+	}
+}

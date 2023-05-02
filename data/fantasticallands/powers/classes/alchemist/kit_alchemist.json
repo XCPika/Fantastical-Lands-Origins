@@ -1,0 +1,11 @@
+{
+    "name": "Alchemist Starting Equipment",
+    "description": "You start with: [Nether Brewing Stand, 16 Nether Wart, 10 Blaze Powder, 6 Glass Bottles]",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {"item": "betternether:nether_brewing_stand"},
+        {"item": "minecraft:nether_wart", "amount": 16 },
+        {"item": "minecraft:blaze_powder", "amount": 10},
+        {"item": "minecraft:glass_bottle", "amount": 6}
+    ]
+}

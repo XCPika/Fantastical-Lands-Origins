@@ -1,0 +1,25 @@
+{
+    "name": "Sauron's Gaze",
+    "description": "Being divine has it's downsides, namely the fact that they seem to draw unwanted attention from creatures of the dark like moths drawn to a beacon. [increased aggression and follow range from hostile mobs]",
+    "type": "origins:multiple",
+    "alllure": {
+        "type": "origins:action_over_time",
+        "interval": 100,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function fantasticallands:florigins/allure"
+        }
+    },
+    "allure_callback": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "function fantasticallands:florigins/allure_callon"
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "function fantasticallands:florigins/allure_callback"
+        }
+    }
+}

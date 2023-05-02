@@ -1,0 +1,21 @@
+{
+    "name": "Fear",
+    "description": "Being near soul fires causes weakness amongst goblins.",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:weakness",
+            "duration": 20,
+            "amplifier": 0
+        }
+    },
+    "condition": {
+        "type": "origins:block_in_radius",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "minecraft:piglin_repellents"
+        },
+        "radius": 4
+    }
+}

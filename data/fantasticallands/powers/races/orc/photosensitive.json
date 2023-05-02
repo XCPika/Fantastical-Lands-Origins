@@ -1,0 +1,14 @@
+{
+    "name": "Photosensitive",
+    "description": "Exposure to the sun causes some hits to hurt even worse than normal",
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 10,
+        "source": {
+            "name": "onHit"
+        }
+    },
+    "cooldown": 20,
+    "condition": { "type": "origins:exposed_to_sun" }
+}

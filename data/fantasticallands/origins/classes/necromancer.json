@@ -1,0 +1,30 @@
+{
+    "name": "Necromancer",
+    "description": "Dark magus, specializing in raising the dead.",
+    "icon": "zombie_head",
+    "powers": [
+		"fantasticallands:necromancer/raise_dead/level_zero/undead",
+		"fantasticallands:necromancer/raise_dead/level_one/undead",
+		"fantasticallands:necromancer/raise_dead/level_two/undead",
+		"fantasticallands:necromancer/raise_dead/level_three/undead",
+		"fantasticallands:necromancer/raise_dead/level_four/undead",
+		"fantasticallands:necromancer/raise_dead/level_five/undead",
+		"fantasticallands:necromancer/raise_dead/level_six/undead",
+		"fantasticallands:necromancer/raise_dead/level_seven/undead",
+		"fantasticallands:necromancer/raise_dead/level_eight/undead",
+		"fantasticallands:necromancer/raise_dead/level_nine/undead",
+		"fantasticallands:necromancer/agro",
+		"fantasticallands:necromancer/mana/power_loss/mana_lose_summon",
+		"fantasticallands:necromancer/mana/power_loss/raise_dead_cost",
+		"fantasticallands:necromancer/scroller/scroller",
+		"fantasticallands:necromancer/scroller/scroller_up",
+		"fantasticallands:necromancer/scroller/scroller_down",
+		"fantasticallands:necromancer/mana/mana",
+		"fantasticallands:necromancer/mana/passive_mana_gain",
+		"fantasticallands:necromancer/mana/kill_mana_gain",
+		"fantasticallands:necromancer/xp_scaler/xp",
+		"fantasticallands:necromancer/xp_scaler/xp_changer"
+    ],
+    "order": 4,
+    "impact": 2
+}

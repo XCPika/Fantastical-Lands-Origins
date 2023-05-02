@@ -1,0 +1,13 @@
+{
+    "name": "Perfect Timing",
+    "description": "The penalty for breaking blocks in the air is removed.",
+    "type": "origins:modify_break_speed",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 4
+    },
+    "condition": {
+        "type": "origins:on_block",
+        "inverted": true
+    }
+}

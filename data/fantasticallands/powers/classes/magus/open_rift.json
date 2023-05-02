@@ -1,0 +1,13 @@
+{
+    "name": "Open Rift",
+    "description": "Opens a rift that leads to your ender chest. [Activate + Sneak]",
+    "type": "origins:active_self",
+    "entity_action": { "type": "origins:ender_chest" },
+    "condition": { "type": "origins:sneaking" },
+    "cooldown": 0,
+    "key": {
+        "key": "key.origins.quinary_active",
+        "continuous": true
+    }
+}
+

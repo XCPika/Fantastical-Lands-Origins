@@ -1,0 +1,8 @@
+{
+    "name": "Nyx's Blessing",
+    "description": "The dwarf species has been blessed a long time ago with the ability to see in the dark by Nyx, Goddess of Night, though this has been known to give them headaches when they are out in the sun. [Toggle with Denary Active]",
+    "type": "origins:toggle_night_vision",
+    "key": {
+        "key": "key.origins.denary_active"
+    }
+}

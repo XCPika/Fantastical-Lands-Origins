@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "name": "Cunning",
+    "description": "You have a knack for finding hidden treasures making you more likely to get extra loot from mobs",
+    "modifier": {
+        "attribute": "minecraft:generic.luck",
+        "operation": "addition",
+        "value": 1
+    }
+}

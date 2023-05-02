@@ -1,0 +1,8 @@
+{
+    "name": "Why Praise The Sun?",
+    "description": "Exposure to the sun stops them regenerating.",
+    "type": "origins:disable_regen",
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    }
+}

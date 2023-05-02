@@ -1,0 +1,5 @@
+{
+    "name": "Iron Bones",
+    "description": "Due to size and weight, trollkin cannot swim. (Ignores water for movement purposes)",
+    "type": "origins:ignore_water"
+}

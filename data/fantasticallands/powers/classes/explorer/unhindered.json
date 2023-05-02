@@ -1,0 +1,20 @@
+{
+    "name": "Unhindered",
+    "description": "Can sprint unhindered by hunger and can move through movement impeding blocks unimpeded",
+    "type": "origins:multiple",
+    "sprint_without_hunger": {
+        "type": "origins:modify_exhaustion",
+        "condition": { "type": "origins:sprinting" },
+        "modifier": {
+            "operation": "multiply_base",
+            "value": -1
+        }
+    },
+    "prevent_block_slowness": {
+        "type": "extraorigins:prevent_block_slowness",
+        "inverted": true
+    },
+    "can_walk_on_powder_snow": {
+        "type": "extraorigins:can_walk_on_powder_snow"
+    }
+}

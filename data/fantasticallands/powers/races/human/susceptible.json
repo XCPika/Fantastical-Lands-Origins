@@ -1,0 +1,19 @@
+{
+    "name": "Susceptible",
+    "description": "Humans are susceptible to dark forces and the plague afflicting zombies. Getting hit by zombies causes humans to exhaust, eventually starving them if they aren't careful. [10 exhaustion damage when hit by zombies]",
+    "type": "origins:action_when_hit",
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:exhaust",
+            "amount": 10.0
+        }
+    },
+    "damage_condition": {
+        "type": "origins:attacker",
+        "entity_condition": {
+            "type": "origins:in_tag",
+            "tag": "fantasticallands:zombies"
+        }
+    }
+}

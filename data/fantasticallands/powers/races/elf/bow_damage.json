@@ -1,0 +1,12 @@
+{
+    "name": "Proficient Archery",
+    "description": "Elves are born with sharp senses and steady hands, making them particularly good with bows. [+3 Damage]",
+    "type": "origins:modify_projectile_damage",
+    "damage_condition": {
+        "type": "origins:projectile"
+    },
+    "modifier": {
+        "operation": "addition",
+        "value": 3
+    }
+}

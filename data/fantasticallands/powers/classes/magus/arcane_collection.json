@@ -1,0 +1,17 @@
+{
+    "name": "Arcane Collection",
+    "description": "By taking extreme care Magus get extra drops from harvesting amethyst.",
+    "type": "origins:action_on_block_break",
+    "entity_action": {
+        "type": "origins:give",
+        "stack": {
+        "item": "minecraft:amethyst_shard",
+        "amount": 3
+    }
+    },
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:amethyst_cluster"
+    },
+    "only_when_harvested": false
+}

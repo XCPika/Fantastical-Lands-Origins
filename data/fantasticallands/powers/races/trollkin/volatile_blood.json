@@ -1,0 +1,28 @@
+{
+    "name": "Volatile Blood",
+    "description": "When a trollkin dies to fire, their blood violently explodes.",
+    "type": "origins:prevent_death",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:explode",
+                "power": 5,
+                "destruction_type": "none",
+                "damage_self": false,
+                "create_fire": false
+            },
+            {
+                "type": "origins:extinguish"
+            },
+            {
+                "type": "origins:damage",
+                "amount": 100,
+                "source": {
+                    "name": "magic"
+                }
+            }
+        ]
+    },
+    "damage_condition": { "type": "origins:fire" }
+}

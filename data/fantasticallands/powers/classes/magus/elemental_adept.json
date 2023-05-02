@@ -1,0 +1,9 @@
+{
+    "name": "Elemental Adept",
+    "description": "Gain resistance against poison and slowness",
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:poison",
+        "minecraft:slowness"
+    ]
+}

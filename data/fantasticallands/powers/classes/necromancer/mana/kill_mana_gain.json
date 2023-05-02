@@ -1,0 +1,16 @@
+{
+  "type": "origins:self_action_on_kill",
+  "entity_action": {
+	"type": "origins:change_resource",
+	"resource": "necro:mana/mana",
+	"change": 750
+  },
+    "condition": {
+			"type": "origins:resource",
+			"resource": "necro:mana/mana",
+			"comparison": "<",
+			"compare_to": 19900
+    },
+  "cooldown": 1,
+  "hidden": true
+}

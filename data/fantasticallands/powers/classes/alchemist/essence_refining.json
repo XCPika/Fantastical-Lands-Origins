@@ -1,0 +1,80 @@
+{
+    "name": "Essence Refining",
+    "description": "Low chance to gain random potions as drops when killing mobs.",
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:chance",
+        "action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "origins:give",
+                        "stack": {
+                            "item": "minecraft:potion"
+                        },
+                        "item_action": {
+                            "type": "origins:merge_nbt",
+                            "nbt": "{Potion: \"invisibility\"}"
+                        }
+                    },
+                    "weight": 10
+                },
+                {
+                    "element": {
+                        "type": "origins:give",
+                        "stack": {
+                            "item": "minecraft:potion"
+                        },
+                        "item_action": {
+                            "type": "origins:merge_nbt",
+                            "nbt": "{Potion: \"regeneration\"}"
+                        }
+                    },
+                    "weight": 10
+                },
+                {
+                    "element": {
+                        "type": "origins:give",
+                        "stack": {
+                            "item": "minecraft:splash_potion"
+                        },
+                        "item_action": {
+                            "type": "origins:merge_nbt",
+                            "nbt": "{Potion: \"harming\"}"
+                        }
+                    },
+                    "weight": 10
+                },
+                {
+                    "element": {
+                        "type": "origins:give",
+                        "stack": {
+                            "item": "minecraft:potion"
+                        },
+                        "item_action": {
+                            "type": "origins:merge_nbt",
+                            "nbt": "{Potion: \"swiftness\"}"
+                        }
+                    },
+                    "weight": 10
+                },
+                {
+                    "element": {
+                        "type": "origins:give",
+                        "stack": {
+                            "item": "minecraft:potion"
+                        },
+                        "item_action": {
+                            "type": "origins:merge_nbt",
+                            "nbt": "{Potion: \"luck\"}"
+                        }
+                    },
+                    "weight": 10
+                }
+            ]
+            
+        },
+        "chance": 0.3
+    }
+}

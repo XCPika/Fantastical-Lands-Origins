@@ -1,0 +1,14 @@
+{
+    "name": "Fighter",
+    "description": "Unmatched warriors with the ability to conquer any foe. Their knowledge of fighting forms helps them adapt to any enemy. [Activate button is Quaternary Active]",
+    "icon": "simplyswords:iron_longsword",
+    "powers": [
+        "fantasticallands:classes/fighter/thick_skin",
+        "fantasticallands:classes/fighter/skillful_strike",
+        "fantasticallands:classes/fighter/boisterous_roar",
+        "fantasticallands:classes/fighter/kit_fighter",
+        "fantasticallands:classes/fighter/careful_defense"
+    ],
+    "order": 3,
+    "impact": 1
+}

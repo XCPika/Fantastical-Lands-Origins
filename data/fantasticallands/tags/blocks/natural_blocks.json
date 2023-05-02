@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:base_stone_overworld",
+        "minecraft:base_stone_nether",
+        "minecraft:dirt_like",
+        "minecraft:leaves",
+        "minecraft:logs",
+        "minecraft:ice",
+        "minecraft:sand",
+        "minecraft:snow",
+        "minecraft:terracotta",
+        "minecraft:end_stone",
+        "byg:logs",
+        "byg:leaves"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Skillful Strike",
+    "description": "All melee attacks deal extra damage.",
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 1
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:empty"
+        }
+    }
+}

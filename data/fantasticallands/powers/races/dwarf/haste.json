@@ -1,0 +1,9 @@
+{
+    "name": "Haste",
+    "description": "Dwarfs live deep below the surface, mining, forging, and making fine ale, Your pickaxe swings cut through rock like butter.",
+    "type": "origins:modify_break_speed",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.5
+    }
+}

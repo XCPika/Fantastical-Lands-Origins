@@ -1,0 +1,10 @@
+{
+    "name": "Long Reach",
+    "description": "Grants them 1 extra block of reach.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "reach-entity-attributes:reach",
+        "operation": "addition",
+        "value": 1
+    }
+}

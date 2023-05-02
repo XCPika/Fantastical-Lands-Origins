@@ -1,0 +1,14 @@
+{
+    "name": "Alchemist",
+    "description": "A master of potion making, Alchemists excel in the art of the brew. [Activate button is Primary Active]",
+    "icon": "potion",
+    "powers": [
+        "fantasticallands:classes/alchemist/healing_tincture",
+        "fantasticallands:classes/alchemist/healing_spring",
+        "fantasticallands:classes/alchemist/essence_refining",
+        "fantasticallands:classes/alchemist/kit_alchemist",
+        "fantasticallands:classes/alchemist/enraging_elixir"
+    ],
+    "order": 6,
+    "impact": 1
+}

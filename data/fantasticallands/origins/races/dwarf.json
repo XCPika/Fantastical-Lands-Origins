@@ -1,0 +1,16 @@
+{
+    "name": "Dwarf",
+    "description": "Delving deep, most dwarves never see the light of the sun. Adapted perfectly for their dark and confined spaces they bring life to an otherwise desolate mountain. They are one of the hardiest and most talented of all who walk this land.",
+    "icon": "lodestone",
+    "powers": [
+        "fantasticallands:races/dwarf/nocturnal_eyes",
+        "fantasticallands:races/dwarf/haste",
+        "fantasticallands:races/dwarf/hearty",
+        "fantasticallands:races/dwarf/hidden_treasure",
+        "fantasticallands:races/dwarf/iron_belly",
+        "fantasticallands:races/dwarf/dense",
+        "fantasticallands:races/dwarf/dwarf_size"
+    ],
+    "order": 1,
+    "impact": 2
+}

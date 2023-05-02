@@ -1,0 +1,17 @@
+{
+    "name": "Carnivore",
+    "description": "Raw meat is better for you than cooked meat.",
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:feed",
+        "food": 5,
+        "saturation": 1
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "type": "origins:in_tag",
+            "tag": "fantasticallands:raw_meat"
+        }
+    }
+}

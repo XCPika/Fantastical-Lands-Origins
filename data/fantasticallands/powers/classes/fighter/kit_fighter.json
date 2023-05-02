@@ -1,0 +1,9 @@
+{
+    "name": "Fighter Starting Equipment",
+    "description": "You start with: [A Stone Bastard Sword and Chainmail Chestplate]",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {"item": "magistuarmory:stone_bastardsword", "amount": 1},
+        {"item": "minecraft:chainmail_chestplate"}
+    ]
+}

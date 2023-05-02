@@ -1,0 +1,16 @@
+{
+    "name": "Cloaked",
+    "description": "Grants invisibility as long as you are crouching. Only works during the night [Sneak]",
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            { "type": "origins:sneaking" },
+            {
+                "type": "origins:daytime",
+                "inverted": true
+            }
+        ]
+    }
+}

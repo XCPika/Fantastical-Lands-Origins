@@ -1,0 +1,14 @@
+{
+    "name": "Rogue Starting Equipment",
+    "description": "You start with: [2 Stone Stiletto, A Bishmirched Hood]",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "magistuarmory:stone_stylet",
+            "amount": 2
+        },
+        { 
+            "item": "bewitchment:besmirched_hood" 
+        }
+    ]
+}

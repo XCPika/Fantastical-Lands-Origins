@@ -1,0 +1,14 @@
+{
+    "name": "Magus",
+    "description": "A maker of mystical marvels. [Activate button is Quinary Active]",
+    "icon": "end_crystal",
+    "powers": [
+        "fantasticallands:classes/magus/open_rift",
+        "fantasticallands:classes/magus/elemental_adept",
+        "fantasticallands:classes/magus/unstable_arts",
+        "fantasticallands:classes/magus/kit_magus",
+        "fantasticallands:classes/magus/arcane_collection"
+    ],
+    "order": 4,
+    "impact": 2
+}

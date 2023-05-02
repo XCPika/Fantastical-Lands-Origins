@@ -1,0 +1,20 @@
+{
+    "name": "Backstab",
+    "description": "Grants extra damage when hitting a target from behind.",
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:damage",
+        "amount": 5,
+        "source": {
+            "name": "generic.player",
+            "bypasses_armor": false
+        }
+    },
+    "bientity_condition": {
+        "type": "origins:relative_rotation",
+        "actor_rotation": "head",
+        "target_rotation": "body",
+        "comparison": ">=",
+        "compare_to": 0.4
+    }
+}

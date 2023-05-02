@@ -1,0 +1,1 @@
+summon minecraft:lightning ^ ^ ^10

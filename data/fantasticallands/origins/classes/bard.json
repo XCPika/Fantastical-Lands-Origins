@@ -1,0 +1,12 @@
+{
+    "name": "Bard",
+    "description": "class.description. [Activate button is Primary Active]",
+    "icon": "supplimentaries:flute",
+    "powers": [
+        "fantasticallands:classes/bard/song_selector/song_wheel",
+        "fantasticallands:classes/bard/song_selector/scroll_down",
+        "fantasticallands:classes/bard/song_selector/scroll_up"
+    ],
+    "order": 7,
+    "impact": 1
+}

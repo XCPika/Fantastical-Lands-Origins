@@ -1,0 +1,34 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "necro:scroller/scroller",
+            "comparison": "==",
+            "compare_to": 7
+        },
+        "if_action": {
+            "type": "origins:execute_command",
+            "command": "resource set @s necro:scroller/scroller 0",
+            "permission_level": 4
+        },
+        "else_action": {
+            "type": "origins:change_resource",
+            "resource": "necro:scroller/scroller",
+            "change": 1
+        }
+    },
+    "cooldown": 4,
+    "hud_render": {
+        "should_render": false,
+        "sprite_location": "necro:textures/resource_bar.png",
+        "bar_index": 9
+    },
+    "name": "Up Scroll",
+    "description": "Press your player viewer button to scroll up a power.",
+    "key": {
+        "key": "key.playerlist",
+        "continuous": true
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Forest's Bounty",
+    "description": "he plants of the forests are much more satisfying to elves than any meat. Eating food that isn't meat helps an elf recover when they are hurt or ill. [Instant health when eating non-meat foods]",
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 1
+    },
+    "item_condition": {
+        "inverted": true,
+        "type": "origins:meat"
+    }
+}

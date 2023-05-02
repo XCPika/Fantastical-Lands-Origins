@@ -1,0 +1,16 @@
+{
+    "name": "Orc",
+    "description": "Fearsome and powerful, Orcs tend to field some of the strongest armies the world will ever see. They’re battle fury pushes them through combat even with the most fatal of wounds. Despite their ferocity, an Orcs honor rivals that of even a dwarf.",
+    "icon": "rotten_flesh",
+    "powers": [
+        "fantasticallands:races/orc/photosensitive",
+        "fantasticallands:races/orc/bad_swimmers",
+        "fantasticallands:races/orc/beeg_damig",
+        "fantasticallands:races/orc/glutton",
+        "fantasticallands:races/orc/healthy_boiz",
+        "fantasticallands:races/orc/orcish_ferocity",
+        "fantasticallands:races/orc/orc_size"
+    ],
+    "order": 5,
+    "impact": 3
+}

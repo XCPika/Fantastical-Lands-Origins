@@ -1,0 +1,16 @@
+{
+    "name": "Birdfolk",
+    "description": "A majestic race of flying humanoid creatures that value freedom and adventure above all else. Free spirited people they spend their days with their brothers and sisters exploring the skies while discovering new places to rest their weary wings.",
+    "icon": "feather",
+    "powers": [
+        "fantasticallands:races/birdfolk/carnivore",
+        "fantasticallands:races/birdfolk/winged",
+        "fantasticallands:races/birdfolk/swift_flight",
+        "fantasticallands:races/birdfolk/sharp_talons",
+        "fantasticallands:races/birdfolk/hollow_bones",
+        "fantasticallands:races/birdfolk/wet_feathers",
+        "fantasticallands:races/birdfolk/birdfolk_size"
+    ],
+    "order": 6,
+    "impact": 2
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Hot Tempered",
+    "description": "Deal 4 extra damage.",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "addition",
+        "value": 4.0
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "origins:resource",
+    "min": 0,
+    "max": 7,
+    "start_value": 0,
+    "hud_render":{
+        "should_render": true,
+        "sprite_location": "necro:textures/gui/resource_bar.png",
+        "bar_index": 9
+    },
+	"name": "Power Selector",
+	"description": "You scroll to select your current power."
+}

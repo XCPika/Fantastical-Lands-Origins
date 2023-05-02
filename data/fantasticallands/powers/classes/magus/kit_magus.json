@@ -1,0 +1,14 @@
+{
+    "name": "Magus Starting Equipment",
+    "description": "You start with: [A Dark Oak Staff and a Phial (Larger than normally obtainable)]",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "hexcasting:dark_oak_staff"
+        },
+        {
+            "item":"hexcasting:battery",
+            "tag": "{hexcasting:starting_media: 64000000, hexcasting:media: 800000}"
+        }
+    ]
+}

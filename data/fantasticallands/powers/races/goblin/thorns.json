@@ -1,0 +1,15 @@
+{
+    "name": "Retaliation",
+    "description": "When hit, the attacker takes a bit of damage in return.",
+    "type": "origins:attacker_action_when_hit",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 1,
+        "source": {
+            "name": "Retaliation",
+            "fire": false,
+            "bypasses_armor": false
+        }
+    },
+    "cooldown": 20
+  }

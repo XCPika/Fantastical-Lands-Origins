@@ -1,0 +1,9 @@
+{
+    "name": "Commoner",
+    "description": "Regular old minecraft character, no abilities, no debuffs",
+    "icon": "wooden_pickaxe",
+    "powers": [
+    ],
+    "order": 9,
+    "impact": 0
+}

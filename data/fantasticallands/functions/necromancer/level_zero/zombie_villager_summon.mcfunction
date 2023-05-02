@@ -1,0 +1,1 @@
+summon zombie_villager ~ ~1 ~ {Tags:["summoned"],CanPickUpLoot:0b,CanBreakDoors:1b,HandItems:[{Count:1,id:"potato"}]}

@@ -1,0 +1,19 @@
+{
+    "name": "Orcish Ferocity",
+    "description": "When reaching 1 heart a burst of fury causes them to become resistant, granting 2 hearts of absorption.",
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:absorption",
+            "duration": 1200,
+            "amplifier": 2
+        }
+    },
+    "condition": {
+        "type": "origins:health",
+        "comparison": "==",
+        "compare_to": 1
+    },
+    "cooldown": 1200
+}

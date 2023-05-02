@@ -1,0 +1,14 @@
+{
+    "origins": [
+        "fantasticallands:races/elf",
+        "fantasticallands:races/goblin",
+        "fantasticallands:races/orc",
+        "fantasticallands:races/human",
+        "fantasticallands:races/trollkin",
+        "fantasticallands:races/birdfolk",
+        "fantasticallands:races/dwarf"
+    ],
+    "name": "race",
+    "enabled": true,
+    "allow_random": true
+}

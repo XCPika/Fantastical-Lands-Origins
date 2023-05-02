@@ -1,0 +1,9 @@
+{
+    "name": "No Secondary",
+    "description": "Your current race doesnt allow for a secondary class",
+    "icon": "dirt",
+    "powers": [
+    ],
+    "order": 9,
+    "impact": 0
+}
