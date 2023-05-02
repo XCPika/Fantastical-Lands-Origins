@@ -5,6 +5,7 @@
  These are split into Races and Classes. Some races may be more or less limited in their choice of class.
  
  Our other custom content will also be hosted GitHub under the same licences.
+ 
  The Modrinth page for the Origins mod can be found here: [Origins](https://modrinth.com/mod/origins)
 ## License
 
