@@ -7,11 +7,11 @@
 		"type": "origins:action_on_callback",
 		"entity_action_chosen": {
 			"type": "origins:execute_command",
-			"command": "function fantasticallands:florigins/human_callon"
+			"command": "function fantasticallands:races/human/human_callon"
 		},
 		"entity_action_lost": {
 			"type": "origins:execute_command",
-			"command": "function fantasticallands:florigins/human_callback"
+			"command": "function fantasticallands:races/human/human_callback"
 		},
 		"execute_chosen_when_orb": true
 	},
@@ -19,7 +19,7 @@
 		"type": "origins:action_over_time",
 		"entity_action": {
 			"type": "origins:execute_command",
-			"command": "execute unless entity @s[pehkui.scale_nbt={\"pehkui:scale_data_types\":{\"pehkui:height\":{scale:1.08f}}}] run function fantasticallands:florigins/human_callon"
+			"command": "execute unless entity @s[pehkui.scale_nbt={\"pehkui:scale_data_types\":{\"pehkui:height\":{scale:1.08f}}}] run function fantasticallands:races/human/human_callon"
 		},
 		"interval": 50
 	}
