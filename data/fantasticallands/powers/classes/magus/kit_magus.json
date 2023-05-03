@@ -8,7 +8,7 @@
         },
         {
             "item":"hexcasting:battery",
-            "tag": "{hexcasting:starting_media: 64000000, hexcasting:media: 800000}"
+            "tag": "{hexcasting_starting_media: 64000000, hexcasting_media: 800000}"
         }
     ]
 }
